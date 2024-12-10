@@ -1,3 +1,3 @@
-dns_usage: "{{ dns_usage_true }}"
+dns_usage: "{{ dns_usage_cmd }}"
 dns_zone_name: "{{ ansible_dns_zone_cmd }}"
 dns_zone_subdomain: "{{ server_name_cmd }}"
