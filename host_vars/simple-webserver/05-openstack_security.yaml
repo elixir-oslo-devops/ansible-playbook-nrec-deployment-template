@@ -1,0 +1,4 @@
+security_group_name: "{{ server_name_cmd }}"
+ports:
+  - 80
+  - 443

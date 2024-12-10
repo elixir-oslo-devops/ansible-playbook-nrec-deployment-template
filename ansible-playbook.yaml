@@ -1,0 +1,15 @@
+- name: Set up NREC server for all hosts - OpenStack tasks
+  hosts: localhost
+  roles:
+    - role: ansible-role-setup-nrec
+      tags:
+        - nrec-setup
+
+
+- name: Set up NREC server for all hosts - in-host tasks
+  hosts: simple-webserver
+  gather_facts: false
+  roles:
+    - role: ansible-role-setup-nrec-host
+      tags:
+        - nrec-host

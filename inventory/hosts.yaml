@@ -1,0 +1,6 @@
+webserver:
+  hosts:
+    simple-webserver:
+      ansible_host: "{{ server_name_cmd }}.{{ ansible_dns_zone_cmd }}"
+      ansible_user: "{{ ansible_ssh_user_cmd }}"
+      ansible_ssh_private_key_file: ".ssh/{{ server_name_cmd }}.pem"

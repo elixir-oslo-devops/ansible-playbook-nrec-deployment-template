@@ -1,0 +1,3 @@
+server_name: "{{ server_name_cmd }}"
+server_flavour: "{{ server_flavour_cmd }}"
+ansible_host: "{{ server_name_cmd }}.{{ ansible_dns_zone_cmd }}"

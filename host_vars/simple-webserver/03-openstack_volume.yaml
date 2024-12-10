@@ -1,0 +1,2 @@
+volume_name: "{{ server_name_cmd }}-volume"
+volume_size: "{{ volume_size_cmd }}"
