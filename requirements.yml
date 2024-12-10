@@ -1,0 +1,12 @@
+---
+roles:
+  - role: ansible-role-setup-nrec
+    src: ssh://git@github.com:elixir-oslo-devops/ansible-role-setup-nrec.git
+    scm: git
+  - role: ansible-role-setup-nrec-host
+    src: ssh://git@github.com:elixir-oslo-devops/ansible-role-setup-nrec-host.git
+    scm: git
+
+collections:
+- name: openstack.cloud
+
