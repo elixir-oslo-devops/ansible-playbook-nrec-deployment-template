@@ -2,6 +2,7 @@
   hosts: localhost
   roles:
     - role: ansible-role-setup-nrec
+      host_name: simple-webserver
       tags:
         - nrec-setup
 
