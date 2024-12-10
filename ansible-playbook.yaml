@@ -7,10 +7,10 @@
         - nrec-setup
 
 
-- name: Set up NREC server for all hosts - in-host tasks
-  hosts: simple-webserver
-  gather_facts: false
-  roles:
-    - role: ansible-role-setup-nrec-host
-      tags:
-        - nrec-host
+# - name: Set up NREC server for all hosts - in-host tasks
+#   hosts: simple-webserver
+#   gather_facts: false
+#   roles:
+#     - role: ansible-role-setup-nrec-host
+#       tags:
+#         - nrec-host
